@@ -31,6 +31,7 @@ Contributors are listed in this file, and given a Contributor role in the suppor
 ## Setting up the bot to run locally for contributing
 
 To run the bot, you need the following things first: Git, [NodeJS v18+](https://nodejs.org/en/), [Postgres](https://www.postgresql.org/download/), [Python](https://www.python.org/) and a discord bot account.
+
 <details>
 <summary>setup Discord bot</summary>
 
@@ -70,6 +71,7 @@ To run the bot, you need the following things first: Git, [NodeJS v18+](https://
 13. Run `yarn build` - then run `yarn start`. In the future, you can type only `yarn start` to start the bot.
 
 If you have errors or issues, you can ask us for help in the #developer channel in the [discord server](https://discord.gg/ob).
+
 </details>
 
 ## **Shared Testing Server**
