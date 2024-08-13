@@ -810,7 +810,7 @@ export class BankImageTask {
 		const canvas = new Canvas(width, useSmallBank ? canvasHeight : Math.max(331, canvasHeight));
 
 		let resizeBg = -1;
-		if (!wide && !isTransparent && actualBackground && canvasHeight > 331) {
+		if (!wide && !useSmallBank && !isTransparent && actualBackground && canvasHeight > 331) {
 			resizeBg = Math.min(1440, canvasHeight) / actualBackground.height;
 		}
 
